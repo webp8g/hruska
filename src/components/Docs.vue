@@ -26,11 +26,11 @@ export default {
       docs: [
         {
           name: "Verejný šifrovací kľúč",
-          url: "/documents/juposro.pem",
+          url: "../documents/juposro.pem",
         },
         {
           name: "Zmena podniku poskytujúceho službu prístupu k internetu ",
-          url: "/documents/zmena-podniku-poskytujuceho-sluzbu-pristupu-k-internetu.pdf",
+          url: "../documents/zmena-podniku-poskytujuceho-sluzbu-pristupu-k-internetu.pdf",
         }
       ],
     };

@@ -78,33 +78,33 @@ export default {
       pdfList1: [
         {
           name: "Všeobecné podmienky",
-          url: "/documents/vseobecne-podmienky.pdf",
+          url: "../documents/vseobecne-podmienky.pdf",
         },
         {
           name: "Špecifikácia rozhraní",
-          url: "/documents/specifikacia-rozhrania.pdf",
+          url: "../documents/specifikacia-rozhrania.pdf",
         },
         {
           name: "Informácie pre koncových užívateľov",
-          url: "/documents/informacie-pre-koncovych-uzivatelov.pdf",
+          url: "../documents/informacie-pre-koncovych-uzivatelov.pdf",
         },
         {
           name: "Informácie pre podnikateľov",
-          url: "/documents/informacie-pre-podnikatelov.pdf",
+          url: "../documents/informacie-pre-podnikatelov.pdf",
         },
       ],
 
       pdfList2: [
         {
           name: "Zmluva pre koncových užívateľov",
-          url: "/documents/zmluva-pre-koncovych-uzivatelov.pdf",
+          url: "../documents/zmluva-pre-koncovych-uzivatelov.pdf",
         },
         {
           name: "Zmluva pre podnikateľov",
-          url: "/documents/zmluva-pre-podnikatelov.pdf",
+          url: "../documents/zmluva-pre-podnikatelov.pdf",
         },
-        { name: "Cenník Internet", url: "/documents/cenik-internet.pdf" },
-        { name: "Cenník Televízia", url: "/documents/cenik-televizia.pdf" },
+        { name: "Cenník Internet", url: "../documents/cenik-internet.pdf" },
+        { name: "Cenník Televízia", url: "../documents/cenik-televizia.pdf" },
       ],
       currentPdfUrl: "",
       isPdfVisible: false,
