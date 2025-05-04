@@ -4,16 +4,9 @@
     <Docs :isVisible="isFullScreenDocs" @close="closeFullScreen" />
 
     <div class="f-col">
-      <svg
-        id="logo"
-        width="35"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 141.56 196.95"
-      >
-        <path
-          class="cls-1"
-          d="M55.12,197l-1.64,0h-.6c-16.47.41-39.17-10.82-48.69-32.42-5.77-13.1-10.62-40.1,21.75-73.79a14.43,14.43,0,0,0,4-7.75c.51-3.29.92-6.62,1.33-9.85,1.53-12.27,3.18-25.5,10.88-34.45-.84-.48-1.67-1-2.47-1.57C26.29,27.66,25.3,10.17,25.27,9.43L25,3.93l5.28-1.55c19.77-5.8,31.51.1,37.87,6.07a33.54,33.54,0,0,1,3.53,3.89C75.94,5.57,82,2.15,86.06,1.13l3.41,13.58.14,0c-.88.26-7.88,2.71-8.8,14.08,24.47,4.39,27.1,25.49,29.45,44.36.4,3.22.82,6.56,1.33,9.85a14.48,14.48,0,0,0,4,7.75c26.22,27.29,28,50.1,24.82,64.43-4.46,20.27-20.43,33.12-33.9,38.39l-5.1-13c10.1-4,22-13.47,25.33-28.35,3.46-15.78-3.88-33.66-21.24-51.73a28.36,28.36,0,0,1-7.73-15.3c-.55-3.49-1-6.94-1.39-10.27-2.49-19.93-4.43-30.15-18.6-32.43V111l10.55-10.54,9.9,9.9L70.26,138.31,42.32,110.37l9.9-9.9L63.76,112V42.53l-1.26.11c-13,2.67-14.94,12.87-17.35,32.2-.42,3.33-.85,6.78-1.39,10.27A28.36,28.36,0,0,1,36,100.41C16.24,121,9.47,141.77,17,158.85c6.81,15.45,23.43,24.35,35.59,24.07H53.8c12.11.26,20.58-3.06,25.14-9.89,2.25-3.37,3-11.06,3.34-17.74L70.22,167.36l-9.9-9.89,27.94-27.95,27.95,27.95-9.9,9.9L96.2,157.25c-.49,9.23-1.8,17.84-5.61,23.55C85.64,188.23,75.48,197,55.12,197ZM40.35,14.4c1.1,3.69,3.25,8.37,7.46,11.3,3.36,2.34,7.72,3.35,13,3,1.2-.21,2.44-.38,3.74-.51C60.93,19,54.73,12.07,40.35,14.4Z"
-        />
+      <svg id="logo" width="35" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 141.56 196.95">
+        <path class="cls-1"
+          d="M55.12,197l-1.64,0h-.6c-16.47.41-39.17-10.82-48.69-32.42-5.77-13.1-10.62-40.1,21.75-73.79a14.43,14.43,0,0,0,4-7.75c.51-3.29.92-6.62,1.33-9.85,1.53-12.27,3.18-25.5,10.88-34.45-.84-.48-1.67-1-2.47-1.57C26.29,27.66,25.3,10.17,25.27,9.43L25,3.93l5.28-1.55c19.77-5.8,31.51.1,37.87,6.07a33.54,33.54,0,0,1,3.53,3.89C75.94,5.57,82,2.15,86.06,1.13l3.41,13.58.14,0c-.88.26-7.88,2.71-8.8,14.08,24.47,4.39,27.1,25.49,29.45,44.36.4,3.22.82,6.56,1.33,9.85a14.48,14.48,0,0,0,4,7.75c26.22,27.29,28,50.1,24.82,64.43-4.46,20.27-20.43,33.12-33.9,38.39l-5.1-13c10.1-4,22-13.47,25.33-28.35,3.46-15.78-3.88-33.66-21.24-51.73a28.36,28.36,0,0,1-7.73-15.3c-.55-3.49-1-6.94-1.39-10.27-2.49-19.93-4.43-30.15-18.6-32.43V111l10.55-10.54,9.9,9.9L70.26,138.31,42.32,110.37l9.9-9.9L63.76,112V42.53l-1.26.11c-13,2.67-14.94,12.87-17.35,32.2-.42,3.33-.85,6.78-1.39,10.27A28.36,28.36,0,0,1,36,100.41C16.24,121,9.47,141.77,17,158.85c6.81,15.45,23.43,24.35,35.59,24.07H53.8c12.11.26,20.58-3.06,25.14-9.89,2.25-3.37,3-11.06,3.34-17.74L70.22,167.36l-9.9-9.89,27.94-27.95,27.95,27.95-9.9,9.9L96.2,157.25c-.49,9.23-1.8,17.84-5.61,23.55C85.64,188.23,75.48,197,55.12,197ZM40.35,14.4c1.1,3.69,3.25,8.37,7.46,11.3,3.36,2.34,7.72,3.35,13,3,1.2-.21,2.44-.38,3.74-.51C60.93,19,54.73,12.07,40.35,14.4Z" />
       </svg>
       <h3>HRUŠKA</h3>
       <ul>
@@ -39,20 +32,14 @@
       <div class="title"></div>
       <ul>
         <li>
-          <img src="../assets/images/map.svg" /><a href="#"
-            >Jupo spol. s r.o. M.R.Štefánika 2587/7, 960 01 Zvolen</a
-          >
+          <img src="../assets/images/map.svg" /><a href="#">Jupo spol. s r.o. M.R.Štefánika 2587/7, 960 01 Zvolen</a>
         </li>
         <li>
-          <img src="../assets/images/tel.svg" /><a href="tel:+421905377999"
-            >+421 905 377 999</a
-          >
+          <img src="../assets/images/tel.svg" /><a href="tel:+421905377999">+421 905 377 999</a>
         </li>
         <li><span>od 8:00 do 16:00</span></li>
         <li>
-          <img src="../assets/images/mail.svg" /><a href="mailto:internet@odhrusku.sk"
-            >internet@odhrusku.sk</a
-          >
+          <img src="../assets/images/mail.svg" /><a href="mailto:internet@odhrusku.sk">internet@odhrusku.sk</a>
         </li>
       </ul>
     </div>
@@ -78,33 +65,33 @@ export default {
       pdfList1: [
         {
           name: "Všeobecné podmienky",
-          url: "../documents/vseobecne-podmienky.pdf",
+          url: new URL("../assets/documents/vseobecne-podmienky.pdf", import.meta.url).href,
         },
         {
           name: "Špecifikácia rozhraní",
-          url: "../documents/specifikacia-rozhrania.pdf",
+          url: new URL("../assets/documents/specifikacia-rozhrania.pdf", import.meta.url).href,
         },
         {
           name: "Informácie pre koncových užívateľov",
-          url: "../documents/informacie-pre-koncovych-uzivatelov.pdf",
+          url: new URL("../assets/documents/informacie-pre-koncovych-uzivatelov.pdf", import.meta.url).href,
         },
         {
           name: "Informácie pre podnikateľov",
-          url: "../documents/informacie-pre-podnikatelov.pdf",
+          url: new URL("../assets/documents/informacie-pre-podnikatelov.pdf", import.meta.url).href,
         },
       ],
 
       pdfList2: [
         {
           name: "Zmluva pre koncových užívateľov",
-          url: "../documents/zmluva-pre-koncovych-uzivatelov.pdf",
+          url: new URL("../assets/documents/zmluva-pre-koncovych-uzivatelov.pdf", import.meta.url).href,
         },
         {
           name: "Zmluva pre podnikateľov",
-          url: "../documents/zmluva-pre-podnikatelov.pdf",
+          url: new URL("../assets/documents/zmluva-pre-podnikatelov.pdf", import.meta.url).href,
         },
-        { name: "Cenník Internet", url: "../documents/cenik-internet.pdf" },
-        { name: "Cenník Televízia", url: "../documents/cenik-televizia.pdf" },
+        { name: "Cenník Internet", url: new URL("../assets/documents/cenik-internet.pdf", import.meta.url).href },
+        { name: "Cenník Televízia", url: new URL("../assets/documents/cenik-televizia.pdf", import.meta.url).href },
       ],
       currentPdfUrl: "",
       isPdfVisible: false,
@@ -120,8 +107,8 @@ export default {
       document.body.classList.add("no-scroll");
     },
     closeFullScreen() {
-      this.isFullScreenFaqs = false; 
-      this.isFullScreenDocs = false; 
+      this.isFullScreenFaqs = false;
+      this.isFullScreenDocs = false;
       document.body.classList.remove("no-scroll");
     },
 
@@ -140,7 +127,8 @@ export default {
 
 <style scoped>
 .no-scroll {
-  overflow: hidden; /* Prevent scrolling on the body */
+  overflow: hidden;
+  /* Prevent scrolling on the body */
 }
 
 footer {
